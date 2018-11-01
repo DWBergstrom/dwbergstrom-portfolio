@@ -6,7 +6,7 @@
 
 #mainNav {
   min-height: 56px;
-  background-color: #fff;
+  background-color: #000;
 }
 
 #mainNav .navbar-toggler {
@@ -227,6 +227,13 @@
   text-transform: uppercase;
   letter-spacing: 0.15rem;
   border: 0;
+}
+
+div.spacer
+{
+    font-size: 0;
+    height: 30px;
+    line-height: 0;
 }
 
 .contact-section {
