@@ -15,6 +15,7 @@
 
     <!-- Custom fonts for this template -->
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/solid.css" integrity="sha384-rdyFrfAIC05c5ph7BKz3l5NG5yEottvO/DQ0dCrwD8gzeQDjYBHNr1ucUpQuljos" crossorigin="anonymous">
@@ -22,7 +23,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/fontawesome.css" integrity="sha384-u5J7JghGz0qUrmEsWzBQkfvc8nK3fUT7DCaQzNQ+q4oEXhGSx+P2OqjWsfIRB8QT" crossorigin="anonymous">
 
     <!-- Custom styles for this template -->
-    <link href="css/grayscale.min.css" rel="stylesheet">
+    <link href="css/grayscale.css" rel="stylesheet">
 
   </head>
 
@@ -30,6 +31,7 @@
 
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+      <p class="text-white">Dave Bergstrom</p>
       <div class="container">
         <a class="navbar-brand js-scroll-trigger" href="#page-top"></a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -62,7 +64,7 @@
     <header class="masthead">
       <div class="container d-flex h-100 align-items-center">
         <div class="mx-auto text-center">
-          <h1 class="mx-auto my-0 ">Dave Bergstrom</h1>
+          <!-- <h1 class="mx-auto my-0 ">Dave Bergstrom</h1> -->
           <h2 class="mx-auto text-white text-center">Web developer and IT engineer</h2>
         </div>
       </div>
@@ -85,16 +87,21 @@
     <!-- Projects Section -->
     <section id="projects" class="projects-section bg-light">
       <div class="container">
-
+        <h3>The following are projects I completed while at General Assembly's Web Develper Immersive program from September to December, 2018.</h3>
+        <br />
         <!-- Featured Project Row -->
         <div class="row align-items-center no-gutters mb-4 mb-lg-5">
           <div class="col-xl-8 col-lg-7">
-            <img class="img-fluid mb-3 mb-lg-0" src="img/capstone-filler.jpg" alt="">
+          <a href="https://dwbergstrom.github.io/ridegame-client/#/" target="_blank"><img class="img-fluid mb-3 mb-lg-0" src="img/bosride.png" alt="bosride"></a>
           </div>
           <div class="col-xl-4 col-lg-5">
             <div class="featured-text text-center text-lg-left">
-              <h4>Capstone</h4>
-              <p class="text-black-50 mb-0">Placeholder for capstone description.</p>
+              <h4>Final project</h4>
+              <p class="text-black-50 mb-0">An enhancement of my second project with additional features, and written in React.</p>
+              <p>Check out the repos:</p>
+              <a href="https://github.com/DWBergstrom/ridegame-client" target="_blank">front-end</a>
+              <br />
+              <a href="https://github.com/DWBergstrom/ridegame-api" target="_blank">back-end</a></p>
             </div>
           </div>
         </div>
@@ -165,8 +172,8 @@
         <br />
         <div class="row">
           <div class="col-xs-6 col-md-4">
-            <legend>jQuery</legend>
-            <img class="img-fluid" src="img/jquery-icon.png" alt="jQuery">
+            <legend>Reactjs</legend>
+            <img class="img-fluid" src="img/react-icon.png" alt="Reactjs">
           </div>
           <div class="col-xs-6 col-md-4">
             <legend>Node.js</legend>
@@ -242,18 +249,20 @@
 
         <div class="row">
 
-          <div class="col-md-6 mb-3 mb-md-0">
+          <div class="col-md-4 mb-3 mb-md-0">
             <div class="card py-4 h-100">
               <div class="card-body text-center">
                 <i class="fas fa-map-marked-alt text-primary mb-2"></i>
-                <h4 class="text-uppercase m-0">Address</h4>
+                <h4 class="text-uppercase m-0">LinkedIn</h4>
                 <hr class="my-4">
-                <div class="small text-black-50">Boston, MA</div>
+                <div class="small text-black-50">
+                  <a href="https://www.linkedin.com/in/dwbergstrom/" target="_blank">linkedin.com/in/dwbergstrom/</a>
+                </div>
               </div>
             </div>
           </div>
 
-          <div class="col-md-6 mb-3 mb-md-0">
+          <div class="col-md-4 mb-3 mb-md-0">
             <div class="card py-4 h-100">
               <div class="card-body text-center">
                 <i class="fas fa-envelope text-primary mb-2"></i>
@@ -265,9 +274,22 @@
               </div>
             </div>
           </div>
+
+          <div class="col-md-4 mb-3 mb-md-0">
+            <div class="card py-4 h-100">
+              <div class="card-body text-center">
+                <i class="fas fa-map-marked-alt text-primary mb-2"></i>
+                <h4 class="text-uppercase m-0">Github</h4>
+                <hr class="my-4">
+                <div class="small text-black-50">
+                  <a href="https://github.com/DWBergstrom" target="_blank">github.com/DWBergstrom</a>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="social d-flex justify-content-center">
+      <!-- <div class="social d-flex justify-content-center">
         <a href="https://twitter.com/DWBergstrom" target="_blank" class="mx-2">
           <i class="fab fa-twitter"></i>
         </a>
@@ -277,13 +299,14 @@
         <a href="https://github.com/DWBergstrom" target="_blank" class="mx-2">
           <i class="fab fa-github"></i>
         </a>
-      </div>
+      </div> -->
     </section>
 
     <!-- Footer -->
     <footer class="bg-black small text-center text-white-50">
       <div class="container">
         Copyright &copy; DWB 2018
+        <a class="text-black nav-link js-scroll-trigger" href="#page-top">Back to top</a>
       </div>
     </footer>
 
